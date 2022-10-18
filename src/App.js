@@ -1,14 +1,13 @@
-import background from '/.Background.png';
+import background from '../src/imagens/background.png';
 import './App.css';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
 
 function App() {
   return (
     <div className="App">
-      <section className='tela-1'>
-        <img src={background-1} className='background-image'></img>
-      </section>
+      <div className="">
+        <img src={background} className="background-image"></img>
+        <h1>Um DOIiS REais</h1>
+      </div>
     </div>
   );
 }
