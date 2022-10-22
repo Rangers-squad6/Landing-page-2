@@ -3,3 +3,50 @@
   padding: 0;
   margin: 0;
 }
+.secao-1 {
+background-image: url('imagens/background.png');
+}
+
+.logo {
+  position: relative;
+  width: 7%;
+  margin: 10px;
+  display: inline-block;
+}
+
+.secao-1 nav ul li {
+  color: #FFFFFF;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 0;
+}
+
+.secao-2 {
+  background: #00000B;
+  color:#FFFFFF;
+}
+
+.secao-3 {
+  background-image: url('imagens/Background\ 2.png');
+}
+
+.secao-4 {
+  background: #00000B;
+}
+
+.secao-5 {
+  background-image: url('imagens/Background\ 2.png');
+}
+
+.secao-6 {
+  background: #00000B;
+}
+
+.secao-7 {
+  background-image: url('imagens/Background\ 2.png');
+}
+
+.secao-8 {
+  background: #00000B;
+}
