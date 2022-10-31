@@ -3,50 +3,62 @@
   padding: 0;
   margin: 0;
 }
-.secao-1 {
-background-image: url('imagens/background.png');
+
+body {
+  color:#FFFFFF
 }
 
-.logo {
-  position: relative;
-  width: 7%;
-  margin: 10px;
-  display: inline-block;
+.cabecalho {
+  background-color: #00000b;
 }
 
-.secao-1 nav ul li {
+#logo {
   color: #FFFFFF;
-  margin: 10px;
-  text-align: center;
+  margin-top: 8px;
+}
+
+.btn {
+  border: none;
+  background: #8E2EA6;
+}
+
+.list-nav, a {
+  text-decoration: none;
   display: inline-block;
-  margin-top: 0;
+  margin-top: 10px;
+  font-size: 23px;
+  margin-right: 25px;
+  color: #FFFFFF;
 }
 
-.secao-2 {
-  background: #00000B;
-  color:#FFFFFF;
+.list-nav, a:hover {
+  color: #8E2EA6;
 }
 
-.secao-3 {
-  background-image: url('imagens/Background\ 2.png');
+#button-nav {
+  margin-top: 15px;
 }
 
-.secao-4 {
-  background: #00000B;
+.pagina-1 {
+  background-image: url(imagens/background.png);
 }
 
-.secao-5 {
-  background-image: url('imagens/Background\ 2.png');
+.pagina-2 {
+  background: #00000b;
 }
 
-.secao-6 {
-  background: #00000B;
+.pagina-3 {
+  background-image: ;
 }
 
-.secao-7 {
-  background-image: url('imagens/Background\ 2.png');
+.pagina-4 {
+  background-image: ;
 }
 
-.secao-8 {
-  background: #00000B;
+.pagina-5 {
+  background-image: ;
+}
+
+.pagina-6 {
+  background-image: ;
 }

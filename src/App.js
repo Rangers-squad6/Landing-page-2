@@ -1,31 +1,32 @@
-import logo from '../src/imagens/image 2.png'
 import './App.css';
-
+import picture from './src/imagens/Picture.png'
 function App() {
   return (
     <div className="App">
-      <section className="secao-1">
-        <h1><img src={logo} alt="Logo da Razor" className="logo"></img></h1>
+      <div className='cabecalho'>
+        <div className='container-md'>
+          <div className='row'>
+            <div className='col-md-3'>
+              <h1 id='logo'>razor</h1>
+            </div>
+            <div className='col-md-6'>
+              <p className='list-nav'><a href='#'>Produtos</a></p>
+              <p className='list-nav'><a href='#'>Para Empresas</a></p>
+              <p className='list-nav'><a href='#'>Suporte</a></p>
+            </div>
+            <div className='col-md-3' id='button-nav'><button type="button" class="btn btn-secondary">Adicione ao carrinho</button></div>
 
-        <nav>
-          <ul>
-            <li>PRODUTOS</li>
-            <li>PARA EMPRESAS</li>
-            <li>SUPORTE</li>
-          </ul>
-        </nav>
-      </section>
+          </div>
+        </div>
+      </div>
 
-      <section className='secao-2'></section>
+      <div className='pagina-1'>
+        <img src={picture}></img>
+      </div>
 
-      <section className='secao-3'></section>
-
-      <section className='secao-4'></section>
-      <section className='secao-5'></section>
-      <section className='secao-6'></section>
-      <section className='secao-7'></section>
-      <section className='secao-8'></section>
-      
+      <div className='pagina-2'>
+        
+      </div>
     </div>
   );
 }
